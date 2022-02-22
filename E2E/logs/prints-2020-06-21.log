@@ -1,0 +1,7 @@
+17:53:58.051 [main] INFO  resources.base - successfully click on mobile link in ShopByBrandNokiaLink method 
+17:54:08.955 [main] INFO  resources.base - Assertion pass in ShopByBrandNokiaLink
+18:01:15.785 [main] INFO  resources.base - URL launch successfully 
+18:01:35.104 [main] INFO  resources.base - search result display
+18:01:58.840 [main] INFO  resources.base - search result display
+18:02:49.630 [main] INFO  resources.base - navigate to home url
+18:02:49.630 [main] INFO  resources.base - navigate to Login Page

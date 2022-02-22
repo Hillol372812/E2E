@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Academy.HomepageTest">
+        <methods>
+          <include name="LaunchHomePage" invocation-numbers="0 1"/>
+          <include name="ShopByBrandNokiaLink"/>
+          <include name="initialize"/>
+          <include name="ValidateSignlink"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Academy.HomepageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <classes>
+      <class name="Academy.ShopByBrandTest">
+        <methods>
+          <include name="ShopByBrandNokia"/>
+          <include name="initialize"/>
+          <include name="ShopByBrandNokia2"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Academy.ShopByBrandTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

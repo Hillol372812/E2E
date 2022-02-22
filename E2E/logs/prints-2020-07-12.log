@@ -1,0 +1,6 @@
+11:40:00.545 [main] INFO  resources.base - navigate to Login Page
+11:40:07.078 [main] INFO  resources.base - browser close successfully
+11:40:37.839 [main] INFO  resources.base - successfully click on mobile link in ShopByBrandNokiaLink method 
+11:40:52.865 [main] INFO  resources.base - Assertion pass in ShopByBrandNokiaLink
+11:40:57.767 [main] INFO  resources.base - successfully click on mobile link in ShopByBrandNokiaLink method 
+11:41:10.974 [main] INFO  resources.base - Assertion pass in ShopByBrandNokiaLink
